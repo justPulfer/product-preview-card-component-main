@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* - Dark cyan: hsl(158, 36%, 37%) - Cream: hsl(30, 38%, 92%) */
+
+:root {
+    /* primary colors*/
+    --darkCyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+
+    /* neutral colors*/
+    --veryDarkBlue: hsl(212, 21%, 14%); 
+    --darkGrayishBlue: hsl(228, 12%, 48%); 
+    --white: hsl(0, 0%, 100%);
+
+    /* font weight */
+    --mediumWeight: 500;
+    --heavyWeight: 700;
+}
+
+body {
+    font-size: 14px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
